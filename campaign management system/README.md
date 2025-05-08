@@ -54,20 +54,16 @@ src/
 
 1. **Clone the repository**
 ```bash
-git clone 
+git clone https://github.com/MohammadTarhine/Campaign-Management-System.git
 cd Campaign-Management-System
+npm install
+npm run dev
 
-Install dependencies: npm install
-Run the app: npm run dev
 
 💡 Design Decisions
 Used local useState to simulate a backend (mock data)
-
 Built CampaignForm to work for both create and edit routes
-
 Used Date.now() for unique IDs
-
 Created a custom modal for deletion instead of window.confirm
-
 Moved styles to a dedicated CampaignList.css and CampaignForm.css file
 
